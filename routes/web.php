@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class,'index']);
 Route::get('/select', [HomeController::class,'select']);
+
+Route::get('/insert',[HomeController::class, 'insert']);
+Route::get('/pass',[HomeController::class, 'pass']);
